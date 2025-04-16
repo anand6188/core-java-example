@@ -1,4 +1,7 @@
-package com.pcstraining.core.Exception.handling;
+package Exception.handling;
+
+import com.pcstraining.core.Exception.handling.InvalidInputException;
+
 import java.util.Scanner;
 
 public class UserInputHandling {

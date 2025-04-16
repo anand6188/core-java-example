@@ -1,4 +1,4 @@
-package com.pcstraining.core.Exception.handling;
+package com.pcstraining.core.Exception;
 
 public class ArithmeticExceptionHandling {
 

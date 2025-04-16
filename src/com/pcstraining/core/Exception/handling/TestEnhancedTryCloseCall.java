@@ -1,4 +1,4 @@
-package com.pcstraining.core.Exception.handling;
+package Exception.handling;
 
 public class TestEnhancedTryCloseCall implements AutoCloseable {
     public static void main(String[] args) {

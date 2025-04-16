@@ -1,4 +1,4 @@
-package collection;
+package com.pcstraining.core.collection;
 
 public class test {
     public static void main(String[] args) {

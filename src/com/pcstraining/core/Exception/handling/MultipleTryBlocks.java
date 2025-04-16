@@ -1,5 +1,6 @@
-package com.pcstraining.core.Exception.handling;
+package Exception.handling;
 
+import java.io.IOException;
 import java.util.Scanner;
 public class MultipleTryBlocks {
     public static void main(String[] args) throws Throwable {
@@ -37,6 +38,22 @@ public class MultipleTryBlocks {
             System.out.println("Exception occurred while dividing :- " + e.getMessage());
         }finally {
             System.out.println("finally block");
+        }
+    }
+
+    public static class CheckedUnCheckedException {
+        public static void main(String[] args) {}
+
+        public void throwCheckedException() {
+            System.out.println("Throwing Exception");
+            try {
+                throw new IOException("Test checked exception");
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+        public void throwUnCheckedException(){
+            throw new ArithmeticException("Test unchecked exception");
         }
     }
 }

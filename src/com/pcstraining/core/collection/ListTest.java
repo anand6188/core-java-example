@@ -1,4 +1,4 @@
-package collection;
+package com.pcstraining.core.collection;
 
 import java.util.ArrayList;
 import java.util.List;

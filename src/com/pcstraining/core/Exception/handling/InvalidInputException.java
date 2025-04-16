@@ -10,5 +10,4 @@ public class InvalidInputException extends RuntimeException{ //
 
     public String getMessage(){
         return message;
-    }
-}
+    }}

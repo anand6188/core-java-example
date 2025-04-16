@@ -1,8 +1,11 @@
-package com.pcstraining.core.Exception.handling;
+package Exception.handling;
+
 import java.io.IOException;
 
 public class CheckedUnCheckedException {
-    public static void main(String[] args) {}
+    public static void main(String[] args) {
+
+    }
 
     public void throwCheckedException() {
         System.out.println("Throwing Exception");
@@ -12,6 +15,7 @@ public class CheckedUnCheckedException {
             System.out.println(e.getMessage());
         }
     }
+
     public void throwUnCheckedException(){
         throw new ArithmeticException("Test unchecked exception");
     }
