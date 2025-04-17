@@ -1,4 +1,4 @@
-package Exception.handling;
+package com.pcstraining.core.Exception.handling;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,5 +1,4 @@
-package Exception.handling;
-
+package com.pcstraining.core.Exception.handling;
 import com.pcstraining.core.Exception.handling.InvalidInputException;
 
 import java.util.Scanner;
